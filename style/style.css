@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+#addForm{
+    max-width: 700px; 
+    padding: 20px; 
+    border: 1px solid rgb(21, 89, 47);
+    background-color: rgb(114, 164, 133); 
+    margin: 40px auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end; 
+}
+#addForm input{
+    padding: 5px;
+    width: 150px; 
+    height: 30px;
+    border: 1px solid rgb(13, 65, 33);
+    background-color: rgb(170, 215, 187);
+    font-style: italic;   
+}
+#addForm button{
+    padding: 5px; 
+    height: 30px; 
+    border: 1px solid rgb(21, 89, 47);
+    background-color:rgb(170, 215, 187); 
+    font-style: italic;
+}
+#addForm .field p{
+    margin-bottom: 5px;
+}
+#container div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    max-width: 200px; 
+    padding: 20px; 
+    border: 1px solid rgb(21, 89, 47);
+    background-color: rgb(170, 215, 187); 
+    margin: 40px auto; 
+}
+#container div p{
+    background-color: rgb(222, 247, 231);
+    text-align: center;
+}
