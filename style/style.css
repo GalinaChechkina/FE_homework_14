@@ -8,10 +8,10 @@
     padding: 20px; 
     border: 1px solid rgb(21, 89, 47);
     background-color: rgb(114, 164, 133); 
-    margin: 40px auto; 
+    margin: 40px auto; /*auto по горизонтали выставляет эл-т по центру*/
     display: flex;
     justify-content: space-between; 
-    align-items: flex-end; 
+    align-items: flex-end; /*все эл-ты прижаты к нижнему краю*/
 }
 #addForm input{
     padding: 5px;
@@ -31,7 +31,7 @@
 #addForm .field p{
     margin-bottom: 5px;
 }
-#container div{
+.item{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     max-width: 200px; 
@@ -40,7 +40,7 @@
     background-color: rgb(170, 215, 187); 
     margin: 40px auto; 
 }
-#container div p{
+.item p{
     background-color: rgb(222, 247, 231);
     text-align: center;
-}
+} 
