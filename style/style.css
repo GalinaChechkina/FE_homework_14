@@ -31,6 +31,16 @@
 #addForm .field p{
     margin-bottom: 5px;
 }
+/* #container{ общий фон для карточек
+    max-width: 300px; 
+    padding: 20px; 
+    border: 1px solid rgb(21, 89, 47);
+    background-color: rgb(114, 164, 133); 
+    margin: 40px auto; auto по горизонтали выставляет эл-т по центру
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+} */
 .item{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
